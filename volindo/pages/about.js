@@ -1,13 +1,13 @@
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-function Home({ data }) {
+import styles from "../styles/About.module.css";
+function About({ data }) {
   return (
-    <div style={{ backgroundColor: "#f1f1f1" }}>
+    <div>
       <section
-        className={`vh-100 ${styles.opciones3}`}
+        className={`vh-100 ${styles.opciones}`}
         style={{ backgroundColor: "#f1f1f1" }}
       >
-        <div className="container-fluid  vh-100">
+        <div className="container-fluid  h-100">
           <div className="row  h-100 justify-content-left d-flex ">
             <div className="col-md-4 col-xl-4 p-0">
               <div
@@ -84,7 +84,7 @@ function Home({ data }) {
                 </div>
               </div>
             </div>
-            <div   className={`col-md-8 col-xl-8  mx-auto ${styles.opciones}`}>
+            <div className="col-md-8 col-xl-8  mx-auto ">
               <div className={`contenedor ${styles.opciones2}`}>
                 <div  className={`mb-4 pb-2 ${styles.fuentemonserrat} ${styles.logo}`}>Logo</div>
                 <div className="row">
@@ -215,4 +215,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default Home;
+export default About;
