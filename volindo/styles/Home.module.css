@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/nunito-sans');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+.clasebase{
+    color: blue;
+}
+.fuentemonserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.fuentenunito{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.tarjetausuario{
+    border-radius: 14px;
+    background-size: 100;
+    background-image: url( '/fondousuario.png');
+    max-width: 382px;
+    margin: 10% auto;
+}
+.contenedorizquierdo{
+    background-image: url( '/bg-volindo.png');
+    background-size: cover;
+    max-width: 571px;
+    padding-top: 20%;
+    height: 100%;
+}
+.colormarron{
+    color: #D8BC8B;
+}
+.iconousuario{
+    margin-top: -50px;
+}
+.opciones{
+    background-image: url( '/Group.svg');
+    background-size: cover;
+    
+}
+.opciones2{
+
+    margin: 10% AUTO;
+    text-align: center;
+ 
+}
+.cuadroblanco{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 7px 2px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    max-width: 206px;
+    margin: 0 AUTO;
+}
+.logo{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #1E1E1E;
+}
+.welcome{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.settings{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+.opciontxt{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.05em;
+}
