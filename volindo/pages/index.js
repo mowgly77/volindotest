@@ -60,7 +60,7 @@ function Home({ data }) {
                       </span>
                     </div>
 
-                    <div className="mb-4 pb-2">
+                    <div className="mb-4 ">
                       <button
                         type="button"
                         className={`btn btn-outline-light rounded-pill fw-semibold px-4 ${styles.fuentemonserrat}`}
@@ -69,7 +69,7 @@ function Home({ data }) {
                       </button>
                     </div>
 
-                    <div className=" mt-5 mb-2">
+                    <div className=" mt-5 mb-2 pb-5">
                       <span
                         className={`text-white fs-4 ${styles.fuentenunito}`}
                       >
