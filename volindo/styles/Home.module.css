@@ -10,9 +10,9 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 .tarjetausuario{
-    border-radius: 14px;
-    background-size: 100;
-    background-image: url( '/fondousuario.png');
+    background: rgba(66, 96, 124, 0.75);
+box-shadow: 8px 1px 13px rgba(0, 0, 0, 0.25);
+border-radius: 19px;
     max-width: 382px;
     margin: 10% auto;
 }
